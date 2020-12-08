@@ -4,7 +4,7 @@ let x  = "X";
 let y = "Y";
 let isMale = true;
 
-//String literal
+//String literal - string interpolation
 let name = `Cotiviti` ${12+34+56}
 console.log(name);
 

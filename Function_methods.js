@@ -67,7 +67,7 @@ dog.setName()
 let createPet = name =>{
    return{
       setName: newName => name + newName;
-      getName: () => name
+      getName: () => name;
    }
 }
 let dog = createPet('diamond');
